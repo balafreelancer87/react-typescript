@@ -74,6 +74,7 @@ class ListUsers extends Component<RouteComponentProps, ListUsersState> {
                                         <td>
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <div className="btn-group" style={{ marginBottom: "20px" }}>
+                                                    <Link to={`edit-user/${user.id}`} className="btn btn-sm btn-outline-secondary">Edit</Link>
                                                     <button className="btn btn-sm btn-outline-secondary" onClick={() => this.deleteUser(user.id)}>Delete</button>
                                                 </div>
                                             </div>
