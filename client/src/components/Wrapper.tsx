@@ -14,7 +14,7 @@ class Wrapper extends Component<{}, WrapperState> {
         <div className="container-fluid">
             <div className="row">
                 <Nav/>
-                <main className="col-md-10 mx-auto px-md-4">
+                <main className="col-md-10 mx-auto px-md-4" style={{ marginTop: "20px" }}>
                     {this.props.children}
                 </main>
             </div>
